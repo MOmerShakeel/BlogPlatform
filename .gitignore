@@ -1,0 +1,28 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+server/.env
+
+# Build outputs
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+
+# VS Code settings
+.vscode/
+
+# Temporary files
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
