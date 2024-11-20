@@ -14,3 +14,6 @@ router.get("/omer", (req,res) => {
         });
     }
 });
+
+
+module.exports = router;
