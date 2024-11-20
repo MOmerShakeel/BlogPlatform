@@ -31,8 +31,8 @@ run().catch(console.dir);
 
 
 //Routes
-// const blogRoutes = require("./routes/blogRoutes");
-// app.use("/api/blogs", blogRoutes);
+const blogRoutes = require("./routes/blogRoutes");
+app.use("/api/blogs", blogRoutes);
 
 //Starting server
 const PORT = process.env.PORT || 5000;
