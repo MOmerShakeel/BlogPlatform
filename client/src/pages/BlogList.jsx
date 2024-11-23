@@ -13,7 +13,7 @@ export const BlogList = () => {
 
     return (
         <div>
-            <h1>Blog Posts</h1>
+            <h1>Omer's Blog</h1>
             <ul>    
                 {blogs.map((blog) => (
                     <li key={blog._id}> 
