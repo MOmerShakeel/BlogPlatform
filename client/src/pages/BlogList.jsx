@@ -14,7 +14,7 @@ export const BlogList = () => {
     return (
         <div>
             <h1>New Blog Platform</h1>
-            <p>This is a new blog platform for testing purposes.</p>
+            <p>This is a new blog platform for testing.</p>
             <p>Nothing is true, everything is permitted.</p>
             <ul>    
                 {blogs.map((blog) => (
