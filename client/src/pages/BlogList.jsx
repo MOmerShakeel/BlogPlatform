@@ -16,6 +16,7 @@ export const BlogList = () => {
             <h1>New Blog Platform</h1>
             <p>This is a new blog platform for testing.</p>
             <p>Nothing is true, everything is permitted.</p>
+            <p>To be or not to be, THAT is the question.</p>
             <ul>    
                 {blogs.map((blog) => (
                     <li key={blog._id}> 
